@@ -1,6 +1,6 @@
-﻿; Giữ XButton1 để cuộn trái liên tục
+﻿; Giữ XButton1 để cuộn trái
 XButton1::
-    SetTimer, ScrollLeft, 5  ; Giảm thời gian chờ để tăng tốc độ
+    SetTimer, ScrollLeft, 5
 return
 
 XButton1 Up::
@@ -8,12 +8,13 @@ XButton1 Up::
 return
 
 ScrollLeft:
-    SendMessage, 0x114, 0, 0, , A ; WM_HSCROLL, SB_LINELEFT
+    MouseGetPos,,, WinID
+    PostMessage, 0x114, 0, 0,, ahk_id %WinID% ; SB_LINELEFT
 return
 
-; Giữ XButton2 để cuộn phải liên tục
+; Giữ XButton2 để cuộn phải
 XButton2::
-    SetTimer, ScrollRight, 5 ; Giảm thời gian chờ để tăng tốc độ
+    SetTimer, ScrollRight, 5
 return
 
 XButton2 Up::
@@ -21,5 +22,6 @@ XButton2 Up::
 return
 
 ScrollRight:
-    SendMessage, 0x114, 1, 0, , A ; WM_HSCROLL, SB_LINERIGHT
+    MouseGetPos,,, WinID
+    PostMessage, 0x114, 1, 0,, ahk_id %WinID% ; SB_LINERIGHT
 return
