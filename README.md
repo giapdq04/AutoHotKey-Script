@@ -1,8 +1,8 @@
-# AutoHotKey Script: ScrollHorizontal.ahk
+# AutoHotKey Script
 
 ## Mục đích
 
-Thư mục này chứa các script AutoHotKey giúp cải thiện trải nghiệm sử dụng chuột trên Windows. Hiện tại, chỉ có một file script là `ScrollHorizontal.ahk`.
+Thư mục này chứa các script AutoHotKey giúp cải thiện trải nghiệm sử dụng chuột trên Windows.
 
 ### ScrollHorizontal.ahk
 
