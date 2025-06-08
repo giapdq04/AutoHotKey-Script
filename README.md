@@ -13,17 +13,16 @@ Script này cho phép bạn sử dụng các nút phụ trên chuột (XButton1 
 - Khi nhả nút, việc cuộn sẽ dừng lại.
 
 Script sử dụng các lệnh:
-- `MouseGetPos` để lấy cửa sổ hiện tại dưới con trỏ chuột.
-- `PostMessage` gửi thông điệp cuộn ngang tới cửa sổ đó.
+- `SendInput` để gửi lệnh cuộn ngang trực tiếp tới ứng dụng (bằng `{WheelLeft}` và `{WheelRight}`).
 
 ## Phần mềm đã thử nghiệm hoạt động tốt
 
-- Windows Explorer (File Explorer)
 - Google Chrome
-- Microsoft Excel
 - Visual Studio Code
-
-> Nếu bạn sử dụng script này trên phần mềm khác và hoạt động tốt, hãy bổ sung vào danh sách này!
+- Visual Studio
+- Google Sheet
+- DataGrip
+- Webstorm
 
 ## Hướng dẫn sử dụng
 
