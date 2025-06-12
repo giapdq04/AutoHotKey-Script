@@ -23,6 +23,7 @@ Script sử dụng các lệnh:
 - Google Sheet
 - DataGrip
 - Webstorm
+- Microsoft Excel
 
 ## Hướng dẫn sử dụng
 
